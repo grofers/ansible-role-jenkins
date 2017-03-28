@@ -2,7 +2,7 @@
 dependencies:
   - role: geerlingguy.java
 
-  - role: ansible-role-nginx
+  - role: "git+git@github.com:grofers/ansible-role-nginx.git"
     nginx_ubuntu_pkg:
       - python-selinux
       - nginx-full
